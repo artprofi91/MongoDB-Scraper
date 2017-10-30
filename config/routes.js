@@ -1,7 +1,4 @@
-// Scrape function
 var scrape = require("../scripts/scrape");
-
-// headlines+notes
 var headlinesController = require("../controllers/headlines");
 var notesController = require("../controllers/notes");
 
