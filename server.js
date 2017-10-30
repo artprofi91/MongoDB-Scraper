@@ -13,11 +13,10 @@ require("./config/routes")(router);
 app.use(express.static(__dirname + "/public"));
 
 // handlebars
-var hbs = require('hbs');
-
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
+app.engine("handlebars", expressHandlebars({
+  defaultLayout: "main"
+}));
+app.set("view engine", "handlebars");
 
 app.use(bodyParser.urlencoded({
   extended: false
