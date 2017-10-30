@@ -11,3 +11,7 @@ When the user opens the app you can scrape the new articles.
 Also, the user can save the articles (all articles will be stored in the MongoDB).
 
 ![2](https://user-images.githubusercontent.com/28790452/32194524-a2a6d462-bd88-11e7-9f5c-7c0da10aef41.gif)
+
+When an article was saved the user can add a note to it.
+
+![3](https://user-images.githubusercontent.com/28790452/32194772-56d1fb7e-bd89-11e7-8522-dd57f16d9573.gif)
