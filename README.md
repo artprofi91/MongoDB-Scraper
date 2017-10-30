@@ -6,7 +6,7 @@ I created a web app that lets users view and leave comments on the latest news. 
 
 When the user opens the app you can scrape the new articles.
 
-![1](https://user-images.githubusercontent.com/28790452/32194522-a15ef7d8-bd88-11e7-83f4-c70c064e51c2.gif)
+![1](https://user-images.githubusercontent.com/28790452/32194613-eb98fe20-bd88-11e7-9597-809fca1680d3.gif)
 
 Also, the user can save the articles (all articles will be stored in the MongoDB).
 
